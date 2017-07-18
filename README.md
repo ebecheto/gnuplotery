@@ -13,11 +13,9 @@ Example of a rotating view of a transfert function. A parameter can be changed w
 
 ![example capL>capf/2](./PZ1x_1000e-15.gif)
 
-[comment]: <> # ( <img align="left" src="./PZx2_100f.gif">)
-[comment]: <> # <img align="right" src="./PZ1x_1000e-15.gif">
-
-
-
 *mosCarac* function example
 --------------------------
-TODO
+
+Here is an example of the data extracted from a 10u/0.35u MOS transistor, and plotted in three dimentions, so that one can see clearly, on a single graph, all the region of operation of a transistor : [0] Off (blocked), [3] subth (week inversion), [1] triode (ohmic) and [2] saturation.
+
+![MOS transistor caracteistic example ](./carac_v8.png)
