@@ -157,10 +157,10 @@ Yr=Y
 replot
 
 
-# eval sprintf("!grep -i %s  %s", 'girerd', file)
+# eval sprintf("!grep -i %s  %s", 'gir', file)
 eval sprintf("!grep -i %s  %s", 'zoccar', file)
 # eval sprintf("!grep -i %s  %s", 'dahou', file)
-# eval sprintf("!grep -i %s  %s", 'guerin', file)
+# eval sprintf("!grep -i %s  %s", 'guer', file)
 # TODO : Add here the name and times of the ones you know or that you want to plot.
 
 
