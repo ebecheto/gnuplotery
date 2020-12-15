@@ -233,3 +233,14 @@ show xrange
 replot
 show xrange
 unset autoscale x
+
+pr old=sprintf("%d, %d", GPVAL_TERM_XSIZE, GPVAL_TERM_YSIZE)
+
+s_sizeXY=sprintf("%d, %d", GPVAL_TERM_XSIZE, GPVAL_TERM_YSIZE)
+set term png size s_sizeXY # @sizeXY
+set output "marathon.png"
+replot
+
+replot
+set term x11 enhanced size s_sizeXY # font "LM Sans,8"
+replot
