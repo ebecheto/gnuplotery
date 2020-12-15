@@ -24,7 +24,7 @@ Here is an example of the data extracted from a 10u/0.35u MOS transistor, and pl
 *gantt* function example
 --------------------------
 
-How to nicely plot time scheddule, so called gantt chart, planning or whatsoever. Thanks to Philou for its first share.
+How to nicely plot time scheddule, so called gantt chart, planning or whatsoever. Thanks to Fabrice G. for its first share.
 
 USAGE : 
 Modify the file type2Num.gp to select the corresponding  color to a project name. Update the new_plan.txt to your needs. Warning, each block needs to be separated with two blak lines (not space, tab or so), and each row is separated with a tab (could be customized with gnuplot option : separtor=';' or so.)
@@ -36,3 +36,10 @@ Or if you have custom names, just invoke, gnuplot like that:
 
 ![team plan ](./schedule_2017-07-18.png)
 
+
+*gaussian fit from time result file* function example
+--------------------------
+
+Here is an example of the fit of time arrivals of the runners of a marathon. With plotting arrows form label to some position of the curve fit.
+
+![Marathon of moscow fit ](./marathon.png)
