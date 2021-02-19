@@ -45,10 +45,17 @@ Here is an example of the fit of time arrivals of the runners of a marathon. Wit
 ![Marathon of moscow fit ](./marathon.png)
 
 
-*linear fit of a list of file 
+*linear fit* of a list of file 
 --------------------------
 
 Example to apply a fit to a list of file. adjusting the rounding first of second to cents of minutes. same color to the datas and the fit, removing the fit label. Works with gnuplot 5.2 (using array).
 
 ![boiling water as function of time for different pans](./INDUCTION/res4.png)
+
+
+*simple* multiplot exemple loop
+--------------------------
+
+
+![float modulus depending on the 'rounding' function ](./exemple/modf.png)
 
