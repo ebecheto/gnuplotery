@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.37 in inline-css mode. -->
+<html>
+  <head>
+    <title>Slow_alone.gp</title>
+  </head>
+  <body style="color: #000000; background-color: #ffffff; font-weight: bold;">
+    <pre>
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> tics format "%.1s%c"
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> xtics nomirror rotate by -270
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> ylabel "Slow RO Freq"
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> xlabel <span style="color: #006400; font-weight: bold;">'sorted code'</span>
+<span style="color: #b8860b; font-weight: bold;">filename</span>="Slow_alone.<span style="color: #0000ff; font-weight: bold;">log</span>"
+<span style="color: #b22222; font-weight: bold;">#plot "&lt;sort -nk2 $filename" u 0:2:3:xtic(1) w yerrorlines</span>
+<span style="color: #a020f0; font-weight: bold;">plot</span> sprintf("&lt;sort -nk2 %s", filename) u 0:2:3:xtic(1) w yerrorlines,<span style="color: #006400; font-weight: bold;">''</span> u ($0*5):2:(gprintf(<span style="color: #006400; font-weight: bold;">'%.0s%c'</span>,$2)) <span style="color: #228b22; font-weight: bold;">every</span> 5 <span style="color: #228b22; font-weight: bold;">with</span> labels rotate by -22 offset char 0,-2 <span style="color: #228b22; font-weight: bold;">notitle</span> 
+
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> term pngcairo font "Sans,9"
+<span style="color: #b8860b; font-weight: bold;">outfile</span>=filename[<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">0:strstrt(filename, ".")-1</span>].".png"
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> output outfile; <span style="color: #0000ff; font-weight: bold; text-decoration: underline;">replot</span>; pr "[<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">".outfile."</span>] printed"
+<span style="color: #0000ff; font-weight: bold; text-decoration: underline;">set</span> t qt 0 font "Sans,9"; <span style="color: #0000ff; font-weight: bold; text-decoration: underline;">replot</span>
+</pre>
+  </body>
+</html>
