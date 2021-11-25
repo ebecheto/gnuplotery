@@ -62,10 +62,10 @@ Example to apply a fit to a list of file. adjusting the rounding first of second
 --------------------------
 ![exemple of rotate label, sorted file ](./exemple/Slow_alone.png)
 
-*exemple ALONE_SF.gp file
+*[exemple](./exemple/ALONE_SF.gp) ALONE_SF.gp file
 --------------------------
 In this example, i interact with python to format the xtic label with zero padded binary format.
-
-I show also an example to generate automaticaly the picture, while resising the size with convert keeping the resolution.
+I show also an example to generate automaicaly the picture, while resising the size with convert keeping the resolution.
+Remark in this example, the frequency dada file are sorted, not the binary xtic code.
 ![exemple of rotate label, sorted file ](./exemple/ALONE_SF.png)
 
