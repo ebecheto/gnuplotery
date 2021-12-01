@@ -72,7 +72,7 @@ Remark in this example, the frequency data file are sorted, such as the binary x
 
 *[exemple](./exemple/Slow_fixed_loopF2.gp) Slow_fixed_loopF2.gp file
 --------------------------
-In this example, i interact change the text of the y2tics to be a function of the one from ytics.
+In this example where I change the text of the y2tics to be a function of the one from ytics.
 
 ![exemple frequency and perdiod on ytics text ](./exemple/freqS_14_loopF.png)
 
