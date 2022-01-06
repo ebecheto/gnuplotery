@@ -53,7 +53,7 @@ Example to apply a fit to a list of file. adjusting the rounding first of second
 ![boiling water as function of time for different pans](./INDUCTION/res4.png)
 
 
-*simple* multiplot exemple loop
+*simple* [multiplot exemple loop](./exemple/multiplot_modf.gp)
 --------------------------
 ![float modulus depending on the 'rounding' function ](./exemple/modf.png)
 
@@ -70,9 +70,15 @@ Remark in this example, the frequency data file are sorted, such as the binary x
 ![exemple of rotate label, sorted file ](./exemple/ALONE_SF.png)
 
 
-*[exemple](./exemple/Slow_fixed_loopF2.gp) Slow_fixed_loopF2.gp file
+*[exemple Slow_fixed_loopF2.gp](./exemple/Slow_fixed_loopF2.gp)  file
 --------------------------
 In this example where I change the text of the y2tics to be a function of the one from ytics.
 
 ![exemple frequency and perdiod on ytics text ](./exemple/freqS_14_loopF.png)
+
+*[exemple spectrumView1.gp](./exemple/spectrumView1.gp) file
+--------------------------
+ploting example from spectrum view data
+
+![exemple spectrum view ](./exemple/spectrumView1.png)
 
