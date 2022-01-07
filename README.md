@@ -21,7 +21,7 @@ Here is an example of the data extracted from a 10u/0.35u MOS transistor, and pl
 ![MOS transistor caracteistic example ](./carac_v8.png)
 
 
-*gantt* function example
+*[gantt* function example](./exemple/boxxy.gp)
 --------------------------
 
 How to nicely plot time scheddule, so called gantt chart, planning or whatsoever. Thanks to Fabrice G. for its first share.
@@ -34,7 +34,7 @@ Or if you have custom names, just invoke, gnuplot like that:
 `gnuplot -e "file='MY_dates.txt'; type2numFile='MY_type.gp'" boxxy.gp -`
 
 
-![team plan ](./schedule_2017-07-18.png)
+![team plan ](./exemple/schedule_2017-07-18.png)
 
 
 *[gaussian fit from time result file* function example ](./exemple/marathon.gp)
