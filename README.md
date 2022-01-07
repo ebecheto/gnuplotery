@@ -58,7 +58,7 @@ Example to apply a fit to a list of file. adjusting the rounding first of second
 ![float modulus depending on the 'rounding' function ](./exemple/modf.png)
 
 
-*[exemple of rotate label, sorted file ]./exemple/Slow_alone.gp)
+*[exemple of rotate label, sorted file ](./exemple/Slow_alone.gp)
 --------------------------
 ![exemple of rotate label, sorted file ](./exemple/Slow_alone.png)
 
