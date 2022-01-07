@@ -7,11 +7,11 @@ Example of a rotating view of a transfert function. A parameter can be changed w
 
 `gnuplot -e "capL='1000e-15';mapy=1" paraGif.gp -`
 
-![example capL<capf/2](./PZx2_100f.gif)
+![example capL<capf/2](./exemple/PZx2_100f.gif)
 
 `gnuplot -e "capL='100e-15';mapy=1" paraGif.gp -`
 
-![example capL>capf/2](./PZ1x_1000e-15.gif)
+![example capL>capf/2](./exemple/PZ1x_1000e-15.gif)
 
 *mosCarac* function example
 --------------------------
