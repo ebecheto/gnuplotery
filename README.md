@@ -37,15 +37,15 @@ Or if you have custom names, just invoke, gnuplot like that:
 ![team plan ](./schedule_2017-07-18.png)
 
 
-*gaussian fit from time result file* function example
+*[gaussian fit from time result file* function example ](./exemple/marathon.gp)
 --------------------------
 
 Here is an example of the fit of time arrivals of the runners of a marathon. With plotting arrows form label to some position of the curve fit.
 
-![Marathon of moscow fit ](./marathon.png)
+![Marathon of moscow fit ](./exemple/marathon.png)
 
 
-*linear fit* of a list of file 
+* [linear fit* of a list of file ](./INDUCTION/loop_plot.gp)
 --------------------------
 
 Example to apply a fit to a list of file. adjusting the rounding first of second to cents of minutes. same color to the datas and the fit, removing the fit label. Works with gnuplot 5.2 (using array).
