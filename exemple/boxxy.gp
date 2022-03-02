@@ -2,7 +2,7 @@
 #set term x11 enhanced size 1600,600 rounded font "Calibri,8"
 #set term pdfcairo enhanced size 21cm,9cm rounded font "Calibri,8"
 # set term svg enhanced size 1600,600 rounded font "LM Sans 8,8"
-#gnuplot -e "file='dates.txt'; type2numFile='typeCMS.gp'" boxxy.gp -
+#gnuplot -e "file='new_plan.txt'; type2numFile='type2num.gp'" boxxy.gp -
 #file='< sort -k2,2'.file
 if (!exists("file")) file="new_plan.txt"
 #set output "Planning_ETE_2016.pdf" 
