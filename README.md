@@ -83,8 +83,7 @@ ploting example from spectrum view data
 ![exemple spectrum view ](./exemple/spectrumView1.png)
 
 --------------------------
-ploting capacitance repartition with colormap and data on top
-*[exemple of capacitance colormap ](./exemple/mapCap.gp)
+[capacitance repartition with colormap and data on top ](./exemple/mapCap.gp)
 --------------------------
 ![exemple of capacitance colormap ](./exemple/mapCap.png)
 
