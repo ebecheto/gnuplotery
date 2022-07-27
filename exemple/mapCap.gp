@@ -14,7 +14,7 @@ set dgrid3d 200,200,2
 splot file u 1:2:3, '' u 1:2:3:3 w labels  rotate by -22 offset char 0,+1 notitle 
 
 old_term=GPVAL_TERM
-set term pngcairo font "Sans,9"
+set term pngcairo font "Sans,9" size 1200,400 
 outfile=file[0:strstrt(file, ".")-1].".png"
 set output outfile; replot; pr "[".outfile."] saved"
 set t old_term 0 font "Sans,9"; replot
