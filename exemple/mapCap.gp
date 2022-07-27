@@ -5,15 +5,13 @@
 #old_term=GPVAL_TERM
 
 file="mapCap.dat"
+set xrange [0:63]; set yrange [0:2]
 set terminal GPVAL_TERM size  1200,400 
 set ytics ("bas" 0, "milieu" 1, "haut" 2)
 set view map
 set pm3d at b map
 set dgrid3d 200,200,2
 splot file u 1:2:3, '' u 1:2:3:3 w labels  rotate by -22 offset char 0,+1 notitle 
-
-set xrange [0:63]
-set yrange [0:2]
 
 old_term=GPVAL_TERM
 set term pngcairo font "Sans,9"
