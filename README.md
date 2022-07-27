@@ -65,14 +65,14 @@ Example to apply a fit to a list of file. adjusting the rounding first of second
 *[exemple](./exemple/ALONE_SF.gp) ALONE_SF.gp file
 --------------------------
 In this example, i interact with python to format the xtic label with zero padded binary format.
-I show also an example to generate automaicaly the picture, while resising the size with convert keeping the resolution.
+I show also an example to generate automaticaly the picture, while resising the size with convert keeping the resolution.
 Remark in this example, the frequency data file are sorted, such as the binary xtic code.
 ![exemple of rotate label, sorted file ](./exemple/ALONE_SF.png)
 
 
 *[exemple Slow_fixed_loopF2.gp](./exemple/Slow_fixed_loopF2.gp)  file
 --------------------------
-In this example where I change the text of the y2tics to be a function of the one from ytics.
+In this example where I change the text of the y2tics to be a function of the one from ytics. I like to see corresponding period as well as frequency value on the same plot.
 
 ![exemple frequency and perdiod on ytics text ](./exemple/freqS_14_loopF.png)
 
@@ -81,4 +81,10 @@ In this example where I change the text of the y2tics to be a function of the on
 ploting example from spectrum view data
 
 ![exemple spectrum view ](./exemple/spectrumView1.png)
+
+--------------------------
+ploting capacitance repartition with colormap and data on top
+*[exemple of capacitance colormap ](./exemple/mapCap.gp)
+--------------------------
+![exemple of capacitance colormap ](./exemple/mapCap.png)
 
